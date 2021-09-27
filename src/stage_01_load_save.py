@@ -1,4 +1,7 @@
-from src.utils.all_utils import read_yaml, create_directory
+import sys
+sys.path.append('src/utils')
+import all_utils
+from all_utils import read_yaml, create_directory
 import argparse
 import pandas as pd
 import os
